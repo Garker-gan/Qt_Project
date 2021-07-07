@@ -1,5 +1,12 @@
 # Qt_Project
-2021上半年写的部分Qt项目（室内地图，两个交通信号灯控制系统，RFID测温系统，掷色子游戏（桌游用））
+2021上半年写的部分Qt项目（室内地图，两个交通信号灯控制系统，RFID测温系统，掷色子游戏（桌游用）
+IndoorMap_6_2 室内地图PC
+IndoorMap_Android 室内地图Android，除界面布局外源码与PC端源码相同
+Train_Led 列车区间信号灯控制系统
+diceGame 掷色子游戏（实验室内部玩桌游使用）
+serial 基于RFID的人体测温系统
+signalLed 正侧轨道信号灯控制系统
+以下为各系统对应截图
 
 1.RFID测温系统
 
