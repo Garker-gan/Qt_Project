@@ -1,0 +1,221 @@
+ifconfig
+eth0      Link encap:Ethernet  HWaddr c6:04:4d:3b:31:01  
+          inet addr:192.168.254.101  Bcast:192.168.254.255  Mask:255.255.255.0
+          inet6 addr: fe80::c404:4dff:fe3b:3101/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:6178 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:985 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4427392 (4.2 MiB)  TX bytes:126156 (123.1 KiB)
+
+eth1      Link encap:Ethernet  HWaddr 16:4a:af:9e:65:8d  
+          UP BROADCAST MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth2      Link encap:Ethernet  HWaddr 02:04:40:64:af:4f  
+          UP BROADCAST NOARP MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:28 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:28 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+
+          RX bytes:3285 (3.2 KiB)  TX bytes:3285 (3.2 KiB)
+
+root@ATK-IMX6U:/opt/serial/bin# ls
+serial
+root@ATK-IMX6U:/opt/serial/bin# ifconfig
+eth0      Link encap:Ethernet  HWaddr c6:04:4d:3b:31:01  
+          inet addr:192.168.254.101  Bcast:192.168.254.255  Mask:255.255.255.0
+          inet6 addr: fe80::c404:4dff:fe3b:3101/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:6178 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:985 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4427392 (4.2 MiB)  TX bytes:126156 (123.1 KiB)
+
+eth1      Link encap:Ethernet  HWaddr 16:4a:af:9e:65:8d  
+          UP BROADCAST MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth2      Link encap:Ethernet  HWaddr 02:04:40:64:af:4f  
+          UP BROADCAST NOARP MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:28 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:28 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+
+          RX bytes:3285 (3.2 KiB)  TX bytes:3285 (3.2 KiB)
+
+root@ATK-IMX6U:/opt/serial/bin# ls
+serial
+root@ATK-IMX6U:/opt/serial/bin# ifconfig
+eth0      Link encap:Ethernet  HWaddr c6:04:4d:3b:31:01  
+          inet addr:192.168.254.101  Bcast:192.168.254.255  Mask:255.255.255.0
+          inet6 addr: fe80::c404:4dff:fe3b:3101/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:6178 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:985 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4427392 (4.2 MiB)  TX bytes:126156 (123.1 KiB)
+
+eth1      Link encap:Ethernet  HWaddr 16:4a:af:9e:65:8d  
+          UP BROADCAST MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth2      Link encap:Ethernet  HWaddr 02:04:40:64:af:4f  
+          UP BROADCAST NOARP MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:28 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:28 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+
+          RX bytes:3285 (3.2 KiB)  TX bytes:3285 (3.2 KiB)
+
+ifconfig
+ls
+root@ATK-IMX6U:/opt/serial/bin# ls
+serial
+root@ATK-IMX6U:/opt/serial/bin# ifconfig
+eth0      Link encap:Ethernet  HWaddr c6:04:4d:3b:31:01  
+          inet addr:192.168.254.101  Bcast:192.168.254.255  Mask:255.255.255.0
+          inet6 addr: fe80::c404:4dff:fe3b:3101/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:6178 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:985 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4427392 (4.2 MiB)  TX bytes:126156 (123.1 KiB)
+
+eth1      Link encap:Ethernet  HWaddr 16:4a:af:9e:65:8d  
+          UP BROADCAST MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth2      Link encap:Ethernet  HWaddr 02:04:40:64:af:4f  
+          UP BROADCAST NOARP MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:28 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:28 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+
+          RX bytes:3285 (3.2 KiB)  TX bytes:3285 (3.2 KiB)
+
+ifconfig
+ls
+root@ATK-IMX6U:/opt/serial/bin# ls
+serial
+root@ATK-IMX6U:/opt/serial/bin# ifconfig
+eth0      Link encap:Ethernet  HWaddr c6:04:4d:3b:31:01  
+          inet addr:192.168.254.101  Bcast:192.168.254.255  Mask:255.255.255.0
+          inet6 addr: fe80::c404:4dff:fe3b:3101/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:6178 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:985 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4427392 (4.2 MiB)  TX bytes:126156 (123.1 KiB)
+
+eth1      Link encap:Ethernet  HWaddr 16:4a:af:9e:65:8d  
+          UP BROADCAST MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth2      Link encap:Ethernet  HWaddr 02:04:40:64:af:4f  
+          UP BROADCAST NOARP MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:28 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:28 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+
+          RX bytes:3285 (3.2 KiB)  TX bytes:3285 (3.2 KiB)
+
+root@ATK-IMX6U:/opt/serial/bin# ls
+serial
+root@ATK-IMX6U:/opt/serial/bin# ifconfig
+eth0      Link encap:Ethernet  HWaddr c6:04:4d:3b:31:01  
+          inet addr:192.168.254.101  Bcast:192.168.254.255  Mask:255.255.255.0
+          inet6 addr: fe80::c404:4dff:fe3b:3101/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:6179 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:985 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4427694 (4.2 MiB)  TX bytes:126156 (123.1 KiB)
+
+eth1      Link encap:Ethernet  HWaddr 16:4a:af:9e:65:8d  
+          UP BROADCAST MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth2      Link encap:Ethernet  HWaddr 02:04:40:64:af:4f  
+          UP BROADCAST NOARP MULTICAST DYNAMIC  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:28 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:28 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+
+          RX bytes:3285 (3.2 KiB)  TX bytes:3285 (3.2 KiB)
+
+root@ATK-IMX6U:/opt/serial/bin# ls
+serial
+root@ATK-IMX6U:/opt/serial/bin# 

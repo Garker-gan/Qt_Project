@@ -1,0 +1,28 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 201402L
+QMAKE_CXX.QMAKE_CLANG_MAJOR_VERSION = 8
+QMAKE_CXX.QMAKE_CLANG_MINOR_VERSION = 0
+QMAKE_CXX.QMAKE_CLANG_PATCH_VERSION = 7
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 4
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 2
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 1
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_CLANG_MAJOR_VERSION \
+    QMAKE_CLANG_MINOR_VERSION \
+    QMAKE_CLANG_PATCH_VERSION \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++ \
+    C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32 \
+    C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward \
+    D:/Download/android-ndk-r20b-windows-x86/android-ndk-r20b/toolchains/llvm/prebuilt/windows/lib/clang/8.0.7/include \
+    C:/MinGW/mingw32/include \
+    C:/MinGW/include
+QMAKE_CXX.LIBDIRS = \
+    D:/Download/android-ndk-r20b-windows-x86/android-ndk-r20b/toolchains/llvm/prebuilt/windows/lib/clang/8.0.7 \
+    C:/MinGW/lib/gcc/mingw32/6.3.0 \
+    C:/MinGW/mingw32/lib \
+    C:/MinGW/lib \
+    C:/MinGW/mingw32/sys-root/mingw/lib

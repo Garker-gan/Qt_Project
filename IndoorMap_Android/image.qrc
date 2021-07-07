@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>dot.png</file>
+        <file>location.png</file>
+        <file>new_dot.png</file>
+        <file>newmap.png</file>
+        <file>pos.txt</file>
+    </qresource>
+</RCC>

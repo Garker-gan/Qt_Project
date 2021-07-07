@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1082</width>
+    <height>2152</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>1061</width>
+      <height>1611</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addIcon">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>1950</y>
+      <width>331</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>添加坐标</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="getWay">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>1740</y>
+      <width>331</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>获取轨迹</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="open">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>1740</y>
+      <width>331</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>载入地图</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="x">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>1960</y>
+      <width>301</width>
+      <height>101</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="y">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>1960</y>
+      <width>301</width>
+      <height>101</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1082</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

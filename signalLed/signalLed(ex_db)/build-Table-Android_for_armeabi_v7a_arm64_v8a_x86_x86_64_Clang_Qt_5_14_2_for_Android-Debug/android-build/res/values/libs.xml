@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <array name="qt_sources">
+        <item>https://download.qt.io/ministro/android/qt5/qt-5.14</item>
+    </array>
+
+    <!-- The following is handled automatically by the deployment tool. It should
+         not be edited manually. -->
+
+    <array name="bundled_libs">
+        
+    </array>
+
+    <array name="qt_libs">
+        <item>arm64-v8a;c++_shared</item>
+        <item>arm64-v8a;Qt5Core_arm64-v8a</item>
+        <item>arm64-v8a;Qt5Gui_arm64-v8a</item>
+        <item>arm64-v8a;Qt5SerialPort_arm64-v8a</item>
+        <item>arm64-v8a;Qt5Sql_arm64-v8a</item>
+        <item>arm64-v8a;Qt5Widgets_arm64-v8a</item>
+        <item>x86_64;c++_shared</item>
+        <item>x86_64;Qt5Core_x86_64</item>
+        <item>x86_64;Qt5Gui_x86_64</item>
+        <item>x86_64;Qt5SerialPort_x86_64</item>
+        <item>x86_64;Qt5Sql_x86_64</item>
+        <item>x86_64;Qt5Widgets_x86_64</item>
+        <item>armeabi-v7a;c++_shared</item>
+        <item>armeabi-v7a;Qt5Core_armeabi-v7a</item>
+        <item>armeabi-v7a;Qt5Gui_armeabi-v7a</item>
+        <item>armeabi-v7a;Qt5SerialPort_armeabi-v7a</item>
+        <item>armeabi-v7a;Qt5Sql_armeabi-v7a</item>
+        <item>armeabi-v7a;Qt5Widgets_armeabi-v7a</item>
+        <item>x86;c++_shared</item>
+        <item>x86;Qt5Core_x86</item>
+        <item>x86;Qt5Gui_x86</item>
+        <item>x86;Qt5SerialPort_x86</item>
+        <item>x86;Qt5Sql_x86</item>
+        <item>x86;Qt5Widgets_x86</item>
+    </array>
+
+    <array name="load_local_libs">
+        <item>arm64-v8a;libplugins_platforms_qtforandroid_arm64-v8a.so</item>
+        <item>x86_64;libplugins_platforms_qtforandroid_x86_64.so</item>
+        <item>armeabi-v7a;libplugins_platforms_qtforandroid_armeabi-v7a.so</item>
+        <item>x86;libplugins_platforms_qtforandroid_x86.so</item>
+    </array>
+
+</resources>
